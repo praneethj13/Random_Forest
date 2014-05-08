@@ -1,5 +1,5 @@
 # Run Random Forest Model -----------------------------------------------------------------------
-source('D:/WK/R&D/Random_Forest/rScript/Random_Forest.R')
+source('./rScript/Random_Forest.R')
 
 if(!exists("rf1")){
   rf1 <- rf_model1(data = data, train_size = train_size,
